@@ -31,4 +31,12 @@ datasets and does not cover the manuscript, supplement, figures, tables, protoco
 archived reference outputs, or article source-data files unless explicitly stated. Data-access and
 redistribution boundaries are documented in `data_registry/LICENSE_BOUNDARIES.md`.
 
-To cite this release, see `CITATION.cff`.
+## Release identifiers
+
+- Repository: <https://github.com/ChenDH9/reliable-tabular-shift>
+- Release tag: `v1.0.0`
+- Version-specific archive DOI: <https://doi.org/10.5281/zenodo.21354982>
+
+Suggested citation: Chen, D. (2026). *Reliable Tabular Shift: Reproducibility Software*
+(Version 1.0.0) [Computer software]. Zenodo. <https://doi.org/10.5281/zenodo.21354982>.
+Machine-readable citation metadata are provided in `CITATION.cff`.

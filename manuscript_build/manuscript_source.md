@@ -419,14 +419,10 @@ for Mondrian, finite-threshold status. These are complementary
 coordinates rather than a sequence in which missing cells are discarded
 before accuracy is summarized.
 
-<figure id="fig:study-design">
-<img src="../figures/figure1.png" style="width:100.0%"
-alt="Study design and the seven mutually exclusive data roles. Target adaptation and final evaluation remain entity-disjoint; all methods within a run share a label-blind random nested target sample." />
-<figcaption aria-hidden="true">Study design and the seven mutually
-exclusive data roles. Target adaptation and final evaluation remain
-entity-disjoint; all methods within a run share a label-blind random
-nested target sample.</figcaption>
-</figure>
+![Study design and the seven mutually exclusive data roles. Target
+adaptation and final evaluation remain entity-disjoint; all methods
+within a run share a label-blind random nested target
+sample.](../figures/figure1_study_design.png){#fig:study-design width=100%}
 
 ## 4. Data and Natural Domain Shifts
 
@@ -888,16 +884,12 @@ at most −0.002 and is calculated only among successful finite pairs.
 Eligibility is shown separately, so a method that could not be fitted
 was not counted as harmless.
 
-<figure id="fig:h2">
-<img src="../figures/figure2.png" style="width:100.0%"
-alt="Complexity–budget response for the four probability updates. Panel A shows the task-equal mean, task–model interquartile range, and minimum-to-maximum range on a symmetric logarithmic scale; these descriptive spreads are not confidence intervals. The dashed line marks the +0.002 material-benefit threshold. Panel B shows conditional material-harm rates." />
-<figcaption aria-hidden="true">Complexity–budget response for the four
-probability updates. Panel A shows the task-equal mean, task–model
-interquartile range, and minimum-to-maximum range on a symmetric
-logarithmic scale; these descriptive spreads are not confidence
-intervals. The dashed line marks the +0.002 material-benefit threshold.
-Panel B shows conditional material-harm rates.</figcaption>
-</figure>
+![Complexity–budget response for the four probability updates. Panel A
+shows the task-equal mean, task–model interquartile range, and
+minimum-to-maximum range on a symmetric logarithmic scale; these
+descriptive spreads are not confidence intervals. The dashed line marks
+the +0.002 material-benefit threshold. Panel B shows conditional
+material-harm rates.](../figures/figure2_complexity_budget.png){#fig:h2 width=100%}
 
 <!-- SID:R72-02 -->
 
@@ -979,17 +971,12 @@ regions earlier than sigmoid, but individual tasks did not share one
 boundary. Isotonic remained negative in most cells even when its
 task-specific curve improved with budget.
 
-<figure id="fig:h3">
-<img src="../figures/figure3.png"
-style="width:100.0%"
-alt="Task-, model-, method-, and budget-specific median log-loss benefit across the primary five-task set. Each cell is a task–model summary; College is excluded. The symmetric logarithmic color scale retains small changes around zero while showing large isotonic harms; open circles mark absolute effects below 0.002." />
-<figcaption aria-hidden="true">Task-, model-, method-, and
-budget-specific median log-loss benefit across the primary five-task
-set. Each cell is a task–model summary; College is excluded. The
-symmetric logarithmic color scale retains small changes around zero
-while showing large isotonic harms; open circles mark absolute effects
-below 0.002.</figcaption>
-</figure>
+![Task-, model-, method-, and budget-specific median log-loss benefit
+across the primary five-task set. Each cell is a task–model summary;
+College is excluded. The symmetric logarithmic color scale retains
+small changes around zero while showing large isotonic harms; open
+circles mark absolute effects below
+0.002.](../figures/figure3_common5_heterogeneity.png){#fig:h3 width=100%}
 
 <!-- SID:R73-02 -->
 
@@ -1037,17 +1024,12 @@ comparisons are conditional on both methods producing successful
 results; estimability and finite-threshold rates are reported separately
 over available attempts.
 
-<figure id="fig:h5">
-<img src="../figures/figure4.png"
-style="width:100.0%"
-alt="Paired Mondrian-minus-standard results. Panels A and B compare the joint-success conditional summary, which retains infinite Mondrian thresholds, with a sensitivity analysis restricted to jointly successful pairs with finite Mondrian thresholds. Panel C reports Mondrian estimability and finite-threshold rates across available attempts." />
-<figcaption aria-hidden="true">Paired Mondrian-minus-standard results.
-Panels A and B compare the joint-success conditional summary, which
-retains infinite Mondrian thresholds, with a sensitivity analysis
-restricted to jointly successful pairs with finite Mondrian thresholds.
-Panel C reports Mondrian estimability and finite-threshold rates across
-available attempts.</figcaption>
-</figure>
+![Paired Mondrian-minus-standard results. Panels A and B compare the
+joint-success conditional summary, which retains infinite Mondrian
+thresholds, with a sensitivity analysis restricted to jointly
+successful pairs with finite Mondrian thresholds. Panel C reports
+Mondrian estimability and finite-threshold rates across available
+attempts.](../figures/figure4_standard_mondrian_tradeoff.png){#fig:h5 width=100%}
 
 <!-- SID:R74-02 -->
 
@@ -1114,17 +1096,12 @@ pairs, not independent task replications; the 17-pair threshold set is
 nested within the 32-pair set. Thus, small AUROC changes did not obviate
 direct evaluation of Brier score and log loss in these comparisons.
 
-<figure id="fig:h4">
-<img src="../figures/figure5.png" style="width:100.0%"
-alt="Source-to-target changes for the 54 primary uncalibrated H4 pairs. Raw horizontal differences are target-domain test minus source-domain test AUROC; positive vertical differences are worse Brier score or log loss. Dashed lines mark absolute AUROC changes of 0.01; star markers identify the separate College stress task, and the horizontal axis uses a symmetric-log transform." />
-<figcaption aria-hidden="true">Source-to-target changes for the 54
-primary uncalibrated H4 pairs. Raw horizontal differences are
-target-domain test minus source-domain test AUROC; positive vertical
-differences are worse Brier score or log loss. Dashed lines mark
-absolute AUROC changes of 0.01; star markers identify the separate
-College stress task, and the horizontal axis uses a symmetric-log
-transform.</figcaption>
-</figure>
+![Source-to-target changes for the 54 primary uncalibrated H4 pairs. Raw
+horizontal differences are target-domain test minus source-domain test
+AUROC; positive vertical differences are worse Brier score or log loss.
+Dashed lines mark absolute AUROC changes of 0.01; star markers identify
+the separate College stress task, and the horizontal axis uses a
+symmetric-log transform.](../figures/figure5_auroc_reliability.png){#fig:h4 width=100%}
 
 <!-- SID:R75-02 -->
 
@@ -1456,9 +1433,11 @@ prepared, audited Parquet inputs; it does not reconstruct every source
 dataset or regenerate the complete intermediate analysis tree. The
 release does not redistribute raw third-party datasets. Data-acquisition
 instructions identify official sources and applicable provider terms.
-Author-created software is licensed under the MIT License. The public
-repository URL, immutable archival DOI, and release tag will be inserted
-after the release is deposited and before submission.
+Author-created software is licensed under the MIT License. The reviewed
+release is available in the [public GitHub
+repository](https://github.com/ChenDH9/reliable-tabular-shift) at tag
+`v1.0.0` and is archived under the version-specific DOI
+[10.5281/zenodo.21354982](https://doi.org/10.5281/zenodo.21354982).
 
 ## Funding
 
