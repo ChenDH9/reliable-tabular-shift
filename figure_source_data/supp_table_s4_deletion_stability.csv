@@ -1,0 +1,3 @@
+check,retained,total,rate,exact_reversal,rounded_reversal,material_threshold,threshold_to_reversal_ratio,count_source_file,reversal_source_file,threshold_source_file
+LOTO,169,170,0.9941176470588236,-2.770666718349829e-05,-2.8e-05,0.002,72.184791723747,results/stage2ds/SCIENTIFIC_ADJUDICATION_STATUS.json,results/stage2ds/H2_EVIDENCE_STRENGTH.csv,protocol/FINAL_ANALYSIS_PLAN.md
+LOFO,136,136,1.0,,,0.002,,results/stage2ds/SCIENTIFIC_ADJUDICATION_STATUS.json,,protocol/FINAL_ANALYSIS_PLAN.md

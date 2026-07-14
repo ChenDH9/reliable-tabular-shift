@@ -1,0 +1,41 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reliable-tabular-shift"
+version = "1.0.0"
+description = "Frozen reproducibility release for reliability under natural tabular shift"
+authors = [
+  {name = "Dinghao Chen"},
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "folktables==0.0.12",
+  "matplotlib==3.11.0",
+  "numpy==2.4.6",
+  "pandas==3.0.3",
+  "Pillow==12.3.0",
+  "psutil==7.2.2",
+  "pyarrow==24.0.0",
+  "PyYAML==6.0.3",
+  "requests==2.34.2",
+  "scikit-learn==1.9.0",
+  "scipy==1.17.1",
+  "seaborn==0.13.2",
+  "xgboost==3.2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+pythonpath = [".", "src"]
+markers = [
+  "package: self-contained public release tests",
+  "full_repository: authority tests that are not part of the public bundle",
+]

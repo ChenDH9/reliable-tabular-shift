@@ -1,0 +1,30 @@
+{
+  "conformal.parquet": {
+    "rows": 2008,
+    "sha256": "63e9e2134c52ced8001095dad52b2c05c9321b69bc4a1d38180ba5a33f0bacdd"
+  },
+  "estimability.parquet": {
+    "rows": 500,
+    "sha256": "10c3338d90acfad12e50c6b4a8664b426134dd0e34eb406465793630b84592b1"
+  },
+  "failures.parquet": {
+    "rows": 0,
+    "sha256": "e6abaa72a38452182056e2c82866b8c8bf3e1b8b3e7399451f3c3229027f8e06"
+  },
+  "not_estimable.parquet": {
+    "rows": 6,
+    "sha256": "db5555d62c1712b29c53d6f1a574af560669575467fe6762cc49b88a0bf329f3"
+  },
+  "probability.parquet": {
+    "rows": 2010,
+    "sha256": "fcd956c185ae97aff7a6af5961cf04887baf127bdeec0e3b6138db5f16a1abf7"
+  },
+  "split_prevalence_audit.parquet": {
+    "rows": 7,
+    "sha256": "f935c19a5d5c3bf1a9db80ed6822e0fe99792e3cf1e8a33cff6534602b0549dc"
+  },
+  "threshold.parquet": {
+    "rows": 2004,
+    "sha256": "d9f26787543ab61a1751afa2f099a3906d7b278a463c5eeaa6f7dc46cbf19dad"
+  }
+}

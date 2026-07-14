@@ -1,0 +1,8 @@
+Method,Family,Frozen support rule,Comparison role,Reported outputs,source_file
+Uncalibrated,Probability reference,budget 0 only,no target fit,"AUROC, AUPRC, Brier, log loss, calibration intercept/slope",protocol/FINAL_EXPERIMENT_PROTOCOL.md; protocol/FINAL_ANALYSIS_PLAN.md
+Intercept-only MLE,Probability update,≥1 label per class,same-method source baseline,"Brier, log loss, calibration intercept/slope",protocol/FINAL_EXPERIMENT_PROTOCOL.md; protocol/FINAL_ANALYSIS_PLAN.md
+Jeffreys intercept,Probability update,nonempty sample; smoothed,low-budget availability comparator,"Brier, log loss, calibration intercept/slope",protocol/FINAL_EXPERIMENT_PROTOCOL.md; protocol/FINAL_ANALYSIS_PLAN.md
+Sigmoid,Probability update,≥1 label per class,same-method source baseline,"Brier, log loss, calibration intercept/slope",protocol/FINAL_EXPERIMENT_PROTOCOL.md; protocol/FINAL_ANALYSIS_PLAN.md
+Isotonic,Probability update,n≥25; ≥5/class; ≥10 unique scores,same-method source baseline,"Brier, log loss, calibration intercept/slope",protocol/FINAL_EXPERIMENT_PROTOCOL.md; protocol/FINAL_ANALYSIS_PLAN.md
+Standard,Conformal,total-size quantile,nominal 0.90 marginal sets,"marginal/worst-class coverage, mean set size, doubletons",protocol/FINAL_EXPERIMENT_PROTOCOL.md; protocol/FINAL_ANALYSIS_PLAN.md
+Mondrian,Conformal,≥5/class to estimate; exact finite-quantile check,nominal 0.90 class-conditional sets,"marginal/worst-class coverage, mean set size, doubletons, finite threshold",protocol/FINAL_EXPERIMENT_PROTOCOL.md; protocol/FINAL_ANALYSIS_PLAN.md

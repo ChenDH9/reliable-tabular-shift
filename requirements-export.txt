@@ -1,0 +1,16 @@
+# Direct requirements exported from environment.lock.yml; versions are not inferred.
+# Pandoc and Tectonic are external build tools documented in QUICKSTART.md.
+folktables==0.0.12
+matplotlib==3.11.0
+numpy==2.4.6
+pandas==3.0.3
+Pillow==12.3.0
+psutil==7.2.2
+pyarrow==24.0.0
+pytest==9.1.1
+PyYAML==6.0.3
+requests==2.34.2
+scikit-learn==1.9.0
+scipy==1.17.1
+seaborn==0.13.2
+xgboost==3.2.0

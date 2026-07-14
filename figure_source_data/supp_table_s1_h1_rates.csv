@@ -1,0 +1,16 @@
+budget,quantity,empirical_rate,source_file,predicted_rate
+25,Mondrian finite threshold,0.3305555555555556,results/stage2ds/H1_RATE_LEVEL_SUMMARY.json,0.32885378677485544
+25,at least 1/class,0.9805555555555555,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,
+25,at least 5/class,0.6916666666666668,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,
+50,Mondrian finite threshold,0.7316666666666666,results/stage2ds/H1_RATE_LEVEL_SUMMARY.json,0.7392355086588647
+50,at least 1/class,0.9983333333333334,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,
+50,at least 5/class,0.8938888888888888,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,
+100,Mondrian finite threshold,0.91,results/stage2ds/H1_RATE_LEVEL_SUMMARY.json,0.9015201259188179
+100,at least 1/class,1.0,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,
+100,at least 5/class,0.9855555555555555,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,
+250,Mondrian finite threshold,0.9993333333333333,results/stage2ds/H1_RATE_LEVEL_SUMMARY.json,0.9997499050647836
+250,at least 1/class,1.0,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,
+250,at least 5/class,1.0,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,
+500,Mondrian finite threshold,1.0,results/stage2ds/H1_RATE_LEVEL_SUMMARY.json,0.999999999977087
+500,at least 1/class,1.0,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,
+500,at least 5/class,1.0,results/stage2ds/H1_RATE_LEVEL_VALIDATION.parquet,

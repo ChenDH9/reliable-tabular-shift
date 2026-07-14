@@ -1,0 +1,3 @@
+subset,budget,delta_worst_class_coverage,delta_mean_set_size,finite_threshold_rate,raw_pair_count,task_count,task_model_cell_count,source_file
+joint-success pairs,25,0.12854897925562128,0.327953289153194,0.3006666666666667,2901,5,10,results/stage2de/h5_standard_vs_mondrian.parquet
+joint-success finite-threshold pairs,25,0.027534557517261644,0.001286082056848048,1.0,1353,4,8,results/stage2de/h5_standard_vs_mondrian.parquet

@@ -1,0 +1,6 @@
+budget,delta_log_loss_mean,cells,source_file
+25,-0.4102391015712408,28,results/stage2de/simulation_probability_summary.parquet
+50,-0.17209621459770666,28,results/stage2de/simulation_probability_summary.parquet
+100,0.058303308946277985,28,results/stage2de/simulation_probability_summary.parquet
+250,0.19728916842384286,28,results/stage2de/simulation_probability_summary.parquet
+500,0.23967866674436822,28,results/stage2de/simulation_probability_summary.parquet

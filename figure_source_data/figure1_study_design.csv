@@ -1,0 +1,8 @@
+order,role,domain,purpose,entity_disjoint,evaluation_only,source_file,stage3q_relation
+1,source_train,source,fit base model,yes,no,protocol/FINAL_EXPERIMENT_PROTOCOL.md,fit frozen base predictor
+2,source_tune,source,select/tune frozen model,yes,no,protocol/FINAL_EXPERIMENT_PROTOCOL.md,select frozen base predictor
+3,source_probability_calibration,source,fit source probability baseline,yes,no,protocol/FINAL_EXPERIMENT_PROTOCOL.md,fit same-method source probability baseline
+4,source_conformal_calibration,source,fit source conformal baseline,yes,no,protocol/FINAL_EXPERIMENT_PROTOCOL.md,fit source conformal threshold
+5,source_id_test,source,source-domain evaluation,yes,yes,protocol/FINAL_EXPERIMENT_PROTOCOL.md,source-only evaluation
+6,target_adaptation_pool,target,blind-random label acquisition,sampled,no,protocol/FINAL_EXPERIMENT_PROTOCOL.md,fit target update/threshold from blind nested prefix
+7,target_final_test,target,held-out target evaluation,yes,yes,protocol/FINAL_EXPERIMENT_PROTOCOL.md,target-only final evaluation

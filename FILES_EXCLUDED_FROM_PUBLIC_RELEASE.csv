@@ -1,0 +1,6 @@
+category,reason
+.git and all history,private provenance; not copied
+archive and historical handoff packages,superseded and may contain private paths
+"results, logs, reports, and provenance trees",full formal evidence is not a public code input
+"raw, interim, and processed datasets",third-party data and record-level identifiers
+virtual environments and caches,machine-specific generated content

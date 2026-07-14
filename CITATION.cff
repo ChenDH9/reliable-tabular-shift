@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this release."
+title: "Reliable Tabular Shift: Reproducibility Software"
+type: software
+authors:
+  - family-names: "Chen"
+    given-names: "Dinghao"
+    affiliation: "College of Big Data, Baoshan University, Baoshan, Yunnan 678000, China"
+version: "1.0.0"
+license: MIT
+keywords:
+  - probability calibration
+  - distribution shift
+  - conformal prediction
+  - tabular data
+  - reproducibility

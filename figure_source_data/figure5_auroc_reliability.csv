@@ -1,0 +1,55 @@
+dataset,source_family,split_seed,base_model,model_seed,delta_auroc,delta_brier,delta_log_loss,task_label,model_label,source_file
+acsfoodstamps_household,acs,0,logistic_regression,0,-0.0169948054424881,0.0196786223484972,0.0508768287420743,ACS Food Stamps,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+acsfoodstamps_household,acs,0,xgboost_cpu,0,-0.0148350787138785,0.0183249331429302,0.0468337392562348,ACS Food Stamps,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsfoodstamps_household,acs,0,xgboost_cpu,1,-0.0147218385203965,0.0181537894622029,0.0466580813183258,ACS Food Stamps,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsfoodstamps_household,acs,1,logistic_regression,0,-0.0181210224454901,0.0185918581807707,0.0482219611074946,ACS Food Stamps,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+acsfoodstamps_household,acs,1,xgboost_cpu,0,-0.0196469407692364,0.0184442970301355,0.0475331358939145,ACS Food Stamps,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsfoodstamps_household,acs,1,xgboost_cpu,1,-0.0194560904428909,0.0183096644684805,0.0473362105980904,ACS Food Stamps,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsfoodstamps_household,acs,2,logistic_regression,0,-0.0230164123705391,0.0199992391812282,0.0536744612306794,ACS Food Stamps,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+acsfoodstamps_household,acs,2,xgboost_cpu,0,-0.0200853634910609,0.0180981951569488,0.0476687889197783,ACS Food Stamps,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsfoodstamps_household,acs,2,xgboost_cpu,1,-0.0202819198626683,0.0181952928026224,0.0478752777014871,ACS Food Stamps,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsincome_region,acs,0,logistic_regression,0,0.0044011692011909,0.0050208206041438,0.0147943061387948,ACS Income,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+acsincome_region,acs,0,xgboost_cpu,0,0.0084151862921809,0.007253267937652,0.0168919957044875,ACS Income,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsincome_region,acs,0,xgboost_cpu,1,0.0085562621142859,0.0071490245649707,0.0164249881271345,ACS Income,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsincome_region,acs,1,logistic_regression,0,0.0082648783831492,0.0024776716680734,0.0069971120830956,ACS Income,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+acsincome_region,acs,1,xgboost_cpu,0,0.0104706177612986,0.0051237411028656,0.0119197249369644,ACS Income,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsincome_region,acs,1,xgboost_cpu,1,0.0106057413505075,0.0051167622696994,0.0119112117781652,ACS Income,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsincome_region,acs,2,logistic_regression,0,0.002040595043662,0.0070385813009785,0.0209715974263783,ACS Income,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+acsincome_region,acs,2,xgboost_cpu,0,0.0089309725617278,0.0075224766877854,0.0181624610590768,ACS Income,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+acsincome_region,acs,2,xgboost_cpu,1,0.0091076613927756,0.0075239080522544,0.0180451306709887,ACS Income,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+brfss_diabetes,brfss,0,logistic_regression,0,-0.0054376162219206,0.027545865738843,0.0739164826885444,BRFSS Diabetes,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+brfss_diabetes,brfss,0,xgboost_cpu,0,-0.0070530611698432,0.0276085721534131,0.0729977529858207,BRFSS Diabetes,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+brfss_diabetes,brfss,0,xgboost_cpu,1,-0.0070328991147292,0.0275350992095179,0.0728341664542071,BRFSS Diabetes,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+brfss_diabetes,brfss,1,logistic_regression,0,-0.0040857568592377,0.0270732407104713,0.071710570603085,BRFSS Diabetes,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+brfss_diabetes,brfss,1,xgboost_cpu,0,-0.0075660258050668,0.0274794765446716,0.0718254172052533,BRFSS Diabetes,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+brfss_diabetes,brfss,1,xgboost_cpu,1,-0.0071999817525154,0.0274928624967122,0.0717746933547834,BRFSS Diabetes,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+brfss_diabetes,brfss,2,logistic_regression,0,0.0013601363487744,0.0280286066427579,0.0746440358542074,BRFSS Diabetes,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+brfss_diabetes,brfss,2,xgboost_cpu,0,-0.0033123049327589,0.0286038952427067,0.074853024881134,BRFSS Diabetes,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+brfss_diabetes,brfss,2,xgboost_cpu,1,-0.0030337500108726,0.0285371601751543,0.0746968141755625,BRFSS Diabetes,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+college_scorecard_2018,college_scorecard,0,logistic_regression,0,-0.3217416208023964,0.0952540149022083,0.6217745336969873,College Scorecard,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+college_scorecard_2018,college_scorecard,0,xgboost_cpu,0,-0.2171134504754823,0.0697454921723822,0.2035704078097419,College Scorecard,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+college_scorecard_2018,college_scorecard,0,xgboost_cpu,1,-0.2194419441944195,0.0677189674270018,0.2045503978441077,College Scorecard,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+college_scorecard_2018,college_scorecard,1,logistic_regression,0,-0.2660443990680385,0.1140511976950183,0.3997555590880565,College Scorecard,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+college_scorecard_2018,college_scorecard,1,xgboost_cpu,0,-0.2028629021702138,0.0869020901761322,0.2496455251591202,College Scorecard,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+college_scorecard_2018,college_scorecard,1,xgboost_cpu,1,-0.2031817586847822,0.0890581270168924,0.259583750256933,College Scorecard,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+college_scorecard_2018,college_scorecard,2,logistic_regression,0,-0.2578863324175825,0.1269848103578522,0.5898047249191709,College Scorecard,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+college_scorecard_2018,college_scorecard,2,xgboost_cpu,0,-0.1497853708791209,0.088191098830353,0.2527433042604209,College Scorecard,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+college_scorecard_2018,college_scorecard,2,xgboost_cpu,1,-0.1611452609890109,0.0904429573720361,0.2638256773735218,College Scorecard,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+diabetes_readmission_patient_index,uci_diabetes,0,logistic_regression,0,-0.0257074310295527,0.0190418990300776,0.043206258642926,Diabetes Readmission,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+diabetes_readmission_patient_index,uci_diabetes,0,xgboost_cpu,0,-0.0229961944848365,0.018188470197733,0.039922014197161,Diabetes Readmission,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+diabetes_readmission_patient_index,uci_diabetes,0,xgboost_cpu,1,-0.0237962589152752,0.0179754735518379,0.0395607584924834,Diabetes Readmission,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+diabetes_readmission_patient_index,uci_diabetes,1,logistic_regression,0,-0.0106230877436096,0.0133013389586938,0.029584617200106,Diabetes Readmission,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+diabetes_readmission_patient_index,uci_diabetes,1,xgboost_cpu,0,-0.0138311351991375,0.0122649731940115,0.0267926796968528,Diabetes Readmission,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+diabetes_readmission_patient_index,uci_diabetes,1,xgboost_cpu,1,-0.0156571011495958,0.0123637090993046,0.0272853590210553,Diabetes Readmission,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+diabetes_readmission_patient_index,uci_diabetes,2,logistic_regression,0,-0.0055211889871841,0.0167752881739582,0.0373285086858338,Diabetes Readmission,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+diabetes_readmission_patient_index,uci_diabetes,2,xgboost_cpu,0,-0.0109330188296961,0.0169575030800862,0.037190726388085,Diabetes Readmission,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+diabetes_readmission_patient_index,uci_diabetes,2,xgboost_cpu,1,-0.0107310357697731,0.0170300113370077,0.0372524206340387,Diabetes Readmission,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+nhanes_lead,nhanes,0,logistic_regression,0,-0.0355665364059276,0.0470910218786314,0.1675255093040884,NHANES Lead,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+nhanes_lead,nhanes,0,xgboost_cpu,0,-0.0605980094345253,0.0466130877856075,0.1678753943785939,NHANES Lead,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+nhanes_lead,nhanes,0,xgboost_cpu,1,-0.0620391876286542,0.0465569617607599,0.1679646892762279,NHANES Lead,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+nhanes_lead,nhanes,1,logistic_regression,0,-0.0310631722052434,0.0470972839278416,0.163460962659904,NHANES Lead,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+nhanes_lead,nhanes,1,xgboost_cpu,0,-0.029793322091974,0.0462011206897925,0.1668645500164368,NHANES Lead,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+nhanes_lead,nhanes,1,xgboost_cpu,1,-0.0273442961558065,0.0461588032163912,0.1662670003777741,NHANES Lead,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+nhanes_lead,nhanes,2,logistic_regression,0,-0.0499052823065979,0.0484414407856372,0.1668768816530504,NHANES Lead,Logistic regression,results/stage2de/h4_probability_pairs.parquet
+nhanes_lead,nhanes,2,xgboost_cpu,0,-0.0152476109712951,0.0471151692740841,0.164746764457201,NHANES Lead,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet
+nhanes_lead,nhanes,2,xgboost_cpu,1,-0.0134319035634825,0.0470738952889524,0.1643784858738344,NHANES Lead,CPU XGBoost,results/stage2de/h4_probability_pairs.parquet

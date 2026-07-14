@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\begin{tabular}{lllllllll}
+\toprule
+Task & Source domain & Target domain & Outcome / inclusion & Entity & Period / version & Source n (positive \%) & Target n (positive \%) & Analysis role \\
+\midrule
+ACS Income & DIVISION != 1 (outside New England) & DIVISION = 1 (New England) & PINCP ≥ \$56,000 after Folktables adult filter & person & 2018 ACS 1-year PUMS & 1,575,270 (32.9\%) & 84,346 (40.3\%) & common five \\
+ACS Food Stamps & DIVISION != 6 (outside East South Central) & DIVISION = 6 (East South Central) & FS = 1; reference-person row aged 18–61, PINCP ≤ \$30,000, HUPAC 1–4 & household (RELP = 0) & 2018 ACS 1-year PUMS & 276,050 (23.0\%) & 21,932 (27.1\%) & common five \\
+BRFSS Diabetes & \_PRACE1 = 1 (White) & \_PRACE1 = 2–6 (Black/AIAN/Asian/NHPI/Other) & DIABETE3/4 = 1; codes 2–4 negative & respondent & BRFSS 2015, 2017, 2019, 2021 & 1,409,220 (12.6\%) & 287,074 (17.0\%) & common five \\
+NHANES Lead & INDFMPIR > 1.3 & INDFMPIR ≤ 1.3 & LBXBPB ≥ 3.5 µg/dL among age ≤18 & SEQN within cycle & NHANES 1999–2000 to 2017–2018 & 14,759 (2.6\%) & 12,740 (8.0\%) & common five; rare-positive \\
+Diabetes Readmission & admission\_source\_id != 7 & admission\_source\_id = 7 (emergency room) & readmitted != NO (both <30 and >30 positive) & patient index encounter & UCI encounters, 1999–2008 & 31,833 (30.7\%) & 37,835 (35.7\%) & common five \\
+College Scorecard & CONTROL = 1 or 2 (public/nonprofit) & CONTROL = 3 (private for-profit) & C150\_4 ≤ 0.50 & institution (UNITID) & MERGED2018\_19\_PP.csv & 1,986 (46.7\%) & 268 (66.4\%) & separate small-domain stress \\
+\bottomrule
+\end{tabular}
+\caption{Task definitions, natural domains, entity units, audited counts, and analysis roles.}
+\label{tab:tasks}
+\end{table*}

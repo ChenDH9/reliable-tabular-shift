@@ -1,0 +1,42 @@
+
+schema_version: stage2_v2
+data_registry: runtime/data/dataset_registry_stage2a1.csv
+frozen_budget_manifest: runtime/data/budget_manifest.parquet
+output_root: runtime/results/stage2
+qualification_output_root: runtime/results/qualification
+acquisition_strategy: blind_random
+nominal_coverage: 0.90
+budgets: [0, 25, 50, 100, 250, 500]
+split_seeds: [0, 1, 2]
+adaptation_seeds: 100
+probability_methods:
+  - uncalibrated
+  - intercept_only_mle
+  - sigmoid
+  - isotonic
+sensitivity_methods:
+  - jeffreys_smoothed_intercept_matching
+conformal_methods: [standard, mondrian]
+score_sources: [base_uncalibrated_probability, source_sigmoid_probability]
+role_caps:
+  source_train: 100000
+  source_tune: 20000
+  source_probability_calibration: 20000
+  source_conformal_calibration: 20000
+  source_id_test: 30000
+  target_final_test: 50000
+  target_adaptation_pool: null
+models:
+  logistic_regression:
+    kind: logistic_regression
+    fixed: {solver: liblinear, max_iter: 1000, class_weight: null}
+    candidates: [{C: 0.1}, {C: 1.0}]
+  xgboost_cpu:
+    kind: xgboost
+    fixed:
+      {n_estimators: 120, max_depth: 4, learning_rate: 0.05, subsample: 0.9,
+       colsample_bytree: 0.9, tree_method: hist, device: cpu, n_jobs: 4,
+       eval_metric: logloss}
+    candidates:
+      - {min_child_weight: 1, reg_lambda: 1.0}
+      - {min_child_weight: 5, reg_lambda: 2.0}

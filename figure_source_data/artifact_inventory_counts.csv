@@ -1,0 +1,7 @@
+artifact,artifact_count,source_rows,formats,png_dpi,source_file
+Figure 1,1,7,PDF;PNG,300.0,manuscript/source_data/figure1_study_design.csv
+Figure 2,1,20,PDF;PNG,300.0,manuscript/source_data/figure2_complexity_budget.csv
+Figure 3,1,200,PDF;PNG,300.0,manuscript/source_data/figure3_common5_heterogeneity.csv
+Figure 4,1,5,PDF;PNG,300.0,manuscript/source_data/figure4_standard_mondrian_tradeoff.csv
+Figure 5,1,54,PDF;PNG,300.0,manuscript/source_data/figure5_auroc_reliability.csv
+Main Tables 1–4,4,38,CSV;Markdown;LaTeX,,manuscript/tables/

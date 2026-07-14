@@ -1,0 +1,7 @@
+dataset,source_family,budget_fraction_of_target_pool,analysis_scope,source_file
+acsincome_region,acs,0.002957617343468102,common five,results/stage2de/h3_common5_budget_curve.parquet
+acsfoodstamps_household,acs,0.011357183418512209,common five,results/stage2de/h3_common5_budget_curve.parquet
+brfss_diabetes,brfss,0.0008715888192586265,common five,results/stage2de/h3_common5_budget_curve.parquet
+nhanes_lead,nhanes,0.019696671262556628,common five,results/stage2de/h3_common5_budget_curve.parquet
+diabetes_readmission_patient_index,uci_diabetes,0.006628662335940607,common five,results/stage2de/h3_common5_budget_curve.parquet
+college_scorecard_2018,college_scorecard,0.9615384615384616,separate stress,results/stage2de/h3_college_stress_case.parquet

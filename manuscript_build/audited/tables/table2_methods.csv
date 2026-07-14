@@ -1,0 +1,8 @@
+Method,Family,Frozen support rule,Comparison role,Reported outputs
+Uncalibrated,Probability reference,budget 0 only,no target fit,"AUROC, AUPRC, Brier, log loss, calibration intercept/slope"
+Intercept-only MLE,Probability update,≥1 label per class,same-method source baseline,"Brier, log loss, calibration intercept/slope"
+Jeffreys intercept,Probability update,nonempty sample; smoothed,low-budget availability comparator,"Brier, log loss, calibration intercept/slope"
+Sigmoid,Probability update,≥1 label per class,same-method source baseline,"Brier, log loss, calibration intercept/slope"
+Isotonic,Probability update,n≥25; ≥5/class; ≥10 unique scores,same-method source baseline,"Brier, log loss, calibration intercept/slope"
+Standard,Conformal,total-size quantile,nominal 0.90 marginal sets,"marginal/worst-class coverage, mean set size, doubletons"
+Mondrian,Conformal,≥5/class to estimate; exact finite-quantile check,nominal 0.90 class-conditional sets,"marginal/worst-class coverage, mean set size, doubletons, finite threshold"

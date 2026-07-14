@@ -1,0 +1,3 @@
+strict_abs_auroc_threshold,abs_intercept_worse_count,auprc_down_count,brier_worse_count,log_loss_worse_count,median_delta_brier,median_delta_log_loss,pair_count,slope_error_worse_count,source_file
+0.01,17,0,17,17,0.02707324071047139,0.07171057060308506,17,5,results/stage2ds/H4_ADJUDICATION_SUMMARY.json
+0.02,28,3,32,32,0.018231726965341734,0.04674591028728034,32,11,results/stage2ds/H4_ADJUDICATION_SUMMARY.json
