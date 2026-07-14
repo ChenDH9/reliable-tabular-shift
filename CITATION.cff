@@ -7,6 +7,9 @@ authors:
     given-names: "Dinghao"
     affiliation: "College of Big Data, Baoshan University, Baoshan, Yunnan 678000, China"
 version: "1.0.0"
+date-released: "2026-07-14"
+doi: "10.5281/zenodo.21354982"
+repository-code: "https://github.com/ChenDH9/reliable-tabular-shift"
 license: MIT
 keywords:
   - probability calibration
